@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin-top: 0px;
+	background-color: #1d1e1f;
+	
+}
+
+@font-face {
+    font-family:'orandakan_kanaregular';
+    src: url(fonts/'orandakankana-webfont.eot');
+    src: url(fonts/'orandakankana-webfont.eot?#iefix') format('embedded-opentype'),
+         url(fonts/'orandakankana-webfont.woff2') format('woff2'),
+         url(fonts/'orandakankana-webfont.woff') format('woff'),
+         url(fonts'orandakankana-webfont.ttf') format('truetype'),
+         url(fonts/'orandakankana-webfont.svg#orandakan_kanaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#container
+{
+	position: relative;
+	background-color: #1d1e1f;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#title
+{
+	position: realtive;
+	font-family:'orandakan_kanaregular';
+	color: #988F8F;
+	font-size:36px;
+
+	}
+
+#year
+{
+	position: relative;
+	width: 100%;
+	font-family:'orandakan_kanaregular';
+	font-size: 20px;
+	color: #988F8F;
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: 5px;
+}
+
+#inputbox
+{
+	background-color: #000000;
+	font-family:'orandakan_kanaregular';
+	font-size: 72px;
+	color: #FFFFFF;
+	width: 3em;
+	text-align:center;
+}
+
+#genre
+{
+	position: relative;
+	width: 100%;
+	font-family:'orandakan_kanaregular';
+	font-size: 20px;
+	color: #988F8F;
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: 5px;
+}
+
+#dropbox
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 100px;
+	text-align:center;	
+}
+
+#table
+{
+	position:relative;
+	width:90%;
+	margin-top:2%;
+	margin-right:5%;
+	margin-left:5%;
+	border-spacing:20px;
+}
+
+.trackart
+{
+	width:100%;
+	height:100%;
+	min-height:100px;
+	min-width:100px;
+	max-width:250px;
+	max-height:250px;
+	-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	
+}
+#trackinfo
+{
+	color:#FFFFFF;
+	font-family:Gotham, Helvetica Neue, "Helvetica", Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+}
+
+#footer
+{
+	height:200px;
+	width:100%;
+	background-color:#988F8F;
+
